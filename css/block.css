@@ -1,0 +1,79 @@
+.block-ground {
+  margin: 8px 48px;
+  padding: 8px;
+  }
+.block-field {
+  z-index: 9997;
+  position: relative;
+  display: flex;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  background-color: #CCFFFF;
+  }
+.block-text {
+  position: relative;
+  padding: 12px 0;
+  }
+.block-margin {
+  background-color: #CCFFFF;
+  margin: 48px;
+  }
+.block-border {
+  border: 48px solid;
+  border-color: #CCCCFF;
+  }
+.block-padding {
+  background-color: #FFFFCC;
+  padding: 48px;
+  }
+.block-content {
+  background-color: #FFCCCC;
+  width: 96px;
+  height: 72px;
+  }
+.block-basis {
+  margin: 0;
+  text-align: center;
+  }
+.block-loft{
+  clear: left;
+  min-height: 96px;
+  }
+.block-left{
+  width: 50%;
+  float: left;
+  height: 100%;
+  min-height: 192px;
+  }
+.block-center {
+  width: 44%;
+  margin-left: 50%;
+  min-height: 192px;
+  }
+.block-right{
+  width: 50%;
+  margin-left: 50%;
+  height: 100%;
+  min-height: 192px;
+  }
+.block-footer{
+  clear: left;
+  min-height: 96px;
+  }
+.block-one{
+  width: 30%;
+  height: 360px;
+  float: left;
+  }
+.block-two{
+  width: 40%;
+  margin-left: 30%;
+  padding: 46px 0;
+  }
+.block-three{
+  width: 30%;
+  height: 360px;
+  margin-left: 70%;
+  margin-top: -360px; /* равняется высоте блока */
+  }

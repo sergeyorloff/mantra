@@ -1,0 +1,32 @@
+@media screen and (min-width: 1200px) {*[lang="tr"], *[lang="ru"], *[lang="en"] {font-size: 4.4ex}}
+@media screen and (max-width: 1200px) {*[lang="tr"], *[lang="ru"], *[lang="en"] {font-size: 4.4ex}}
+@media screen and (max-width: 1120px) {*[lang="tr"], *[lang="ru"], *[lang="en"] {font-size: 4.1ex}}
+@media screen and (max-width: 1040px) {*[lang="tr"], *[lang="ru"], *[lang="en"] {font-size: 3.8ex}}
+@media screen and (max-width: 960px) {*[lang="tr"], *[lang="ru"], *[lang="en"] {font-size: 3.4ex}}
+@media screen and (max-width: 880px) {*[lang="tr"], *[lang="ru"], *[lang="en"] {font-size: 3.2ex}}
+@media screen and (max-width: 800px) {*[lang="tr"], *[lang="ru"], *[lang="en"] {font-size: 2.8ex}}
+@media screen and (max-width: 720px) {*[lang="tr"], *[lang="ru"], *[lang="en"] {font-size: 2.5ex}}
+@media screen and (max-width: 640px) {*[lang="tr"], *[lang="ru"], *[lang="en"] {font-size: 2.2ex}}
+@media screen and (max-width: 560px) {*[lang="tr"], *[lang="ru"], *[lang="en"] {font-size: 1.9ex}}
+@media screen and (max-width: 480px) {*[lang="tr"], *[lang="ru"], *[lang="en"] {font-size: 1.6ex}}
+@media screen and (max-width: 400px) {*[lang="tr"], *[lang="ru"], *[lang="en"] {font-size: 1.2ex}}
+@media screen and (max-width: 320px) {*[lang="tr"], *[lang="ru"], *[lang="en"] {font-size: 0.9ex}}
+@media screen and (max-width: 240px) {*[lang="tr"], *[lang="ru"], *[lang="en"] {font-size: 1.2ex}}
+@media screen and (max-width: 160px) {*[lang="tr"], *[lang="ru"], *[lang="en"] {font-size: 0.9ex}}
+/*--------------------------------------------------------*/
+@media screen and (min-width: 1200px) {*[lang="sa"], *[lang="hi"] {font-size: 5.1ex}}
+@media screen and (max-width: 1200px) {*[lang="sa"], *[lang="hi"] {font-size: 5.1ex}}
+@media screen and (max-width: 1120px) {*[lang="sa"], *[lang="hi"] {font-size: 4.8ex}}
+@media screen and (max-width: 1040px) {*[lang="sa"], *[lang="hi"] {font-size: 4.5ex}}
+@media screen and (max-width: 960px) {*[lang="sa"], *[lang="hi"] {font-size: 4.1ex}}
+@media screen and (max-width: 880px) {*[lang="sa"], *[lang="hi"] {font-size: 3.8ex}}
+@media screen and (max-width: 800px) {*[lang="sa"], *[lang="hi"] {font-size: 3.4ex}}
+@media screen and (max-width: 720px) {*[lang="sa"], *[lang="hi"] {font-size: 3.1ex}}
+@media screen and (max-width: 640px) {*[lang="sa"], *[lang="hi"] {font-size: 2.7ex}}
+@media screen and (max-width: 560px) {*[lang="sa"], *[lang="hi"] {font-size: 2.4ex}}
+@media screen and (max-width: 480px) {*[lang="sa"], *[lang="hi"] {font-size: 2.1ex}}
+@media screen and (max-width: 400px) {*[lang="sa"], *[lang="hi"] {font-size: 1.7ex}}
+@media screen and (max-width: 320px) {*[lang="sa"], *[lang="hi"] {font-size: 1.3ex}}
+@media screen and (max-width: 240px) {*[lang="sa"], *[lang="hi"] {font-size: 1.7ex}}
+@media screen and (max-width: 160px) {*[lang="sa"], *[lang="hi"] {font-size: 1.3ex}}
+/*--------------------------------------------------------*/

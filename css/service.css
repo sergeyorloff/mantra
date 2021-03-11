@@ -1,0 +1,211 @@
+/*плавная загрузка страниц*/
+@-webkit-keyframes fade-in { 0% { opacity: 0.1; } 100% { opacity: 1; } }
+@-moz-keyframes fade-in { 0% { opacity: 0.1; } 100% { opacity: 1; } }
+@-ms-keyframes fade-in { 0% { opacity: 0.1; } 100% { opacity: 1; } }
+@-o-keyframes fade-in { 0% { opacity: 0.1; } 100% { opacity: 1; } }
+@keyframes fade-in { 0% { opacity: 0.1; } 100% { opacity: 1; } }
+body {
+-webkit-animation: fade-in 2.236s ease-in-out;
+-moz-animation: fade-in 2.236s ease-in-out;
+-ms-animation: fade-in 2.236s ease-in-out;
+-o-animation: fade-in 2.236s ease-in-out;
+animation: fade-in 2.236s ease-in-out;
+}
+html {
+  padding: 1%;
+  color: #D1D1D1;
+  background-color: #26282E;
+}
+body {
+  position: relative;
+  min-height: 100%;
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: auto;
+  scroll-behavior: smooth;
+  overscroll-behavior: contain;
+  -webkit-overflow-scrolling: touch;
+/*
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+*/
+  -webkit-text-align-last: center;
+  -moz-text-align-last: center;
+  -ms-text-align-last: center;
+  -o-text-align-last: center;
+  text-align-last: center;
+  text-align: justify;
+}
+a {
+  color: #FFFFFF;
+  -webkit-transition: all 1.618s ease-in-out;
+  -moz-transition: all 1.618s ease-in-out;
+  -ms-transition: all 1.618s ease-in-out;
+  -o-transition: all 1.618s ease-in-out;
+  transition: all 1.618s ease-in-out;
+  text-decoration: none; /* Отменить подчеркивание у ссылки */
+  outline: none; /* Убрать границу вокруг ссылок  */
+  -webkit-animation: fade-in 2.236s ease-in-out;
+  -moz-animation: fade-in 2.236s ease-in-out;
+  -ms-animation: fade-in 2.236s ease-in-out;
+  -o-animation: fade-in 2.236s ease-in-out;
+  animation: fade-in 2.236s ease-in-out;
+}
+a:hover {
+  color: #FF4040;
+  text-shadow: 4px 3px 2px #00000080;
+  -webkit-transition: all 0.618s ease-in-out;
+  -moz-transition: all 0.618s ease-in-out;
+  -ms-transition: all 0.618s ease-in-out;
+  -o-transition: all 0.618s ease-in-out;
+  transition: all 0.618s ease-in-out;
+}
+/* ШРИФТЫ ДЕВАНАГАРИ -------------------------------------------------*/
+*[lang="sa"] h1,
+*[lang="sa"] h2,
+*[lang="sa"] h3,
+*[lang="sa"] h4,
+*[lang="sa"] h5,
+*[lang="sa"] h6 {
+  font-family: "NotoSerifDevanagari-Black", serif;
+  margin: 1.234ex 0 0.618ex 0;
+}
+*[lang="hi"] h1,
+*[lang="hi"] h2,
+*[lang="hi"] h3,
+*[lang="hi"] h4,
+*[lang="hi"] h5,
+*[lang="hi"] h6 {
+  font-family: "NotoSerifDevanagari-Black", serif;
+  margin: 1.234ex 0 0.618ex 0;
+}
+*[lang="sa"],
+*[lang="hi"],
+*[lang="sa"] a,
+*[lang="hi"] a,
+*[lang="sa"] body,
+*[lang="hi"] body,
+*[lang="sa"] pre,
+*[lang="hi"] pre {
+  font-family: "NotoSerifDevanagari-Regular", serif;
+  margin: 1.234ex 0 0.618ex 0;
+}
+*[lang="sa"] b,
+*[lang="hi"] b {
+  font-family: "NotoSerifDevanagari-Bold", serif;
+  margin: 1.234ex 0 0.618ex 0;
+}
+*[lang="sa"] strong,
+*[lang="hi"] strong {
+  font-family: "NotoSerifDevanagari-Black", serif;
+  margin: 1.234ex 0 0.618ex 0;
+}
+/* ШРИФТЫ КИРИЛЛИЦЫ --------------------------------------------------*/
+*[lang="tr"] h1,
+*[lang="tr"] h2,
+*[lang="tr"] h3,
+*[lang="tr"] h4,
+*[lang="tr"] h5,
+*[lang="tr"] h6 {
+  font-family: "NotoSerif-CondensedBlack", serif;
+  margin: 1.618ex 0;
+}
+*[lang="ru"] h1,
+*[lang="ru"] h2,
+*[lang="ru"] h3,
+*[lang="ru"] h4,
+*[lang="ru"] h5,
+*[lang="ru"] h6 {
+  font-family: "NotoSerif-CondensedBlack", serif;
+  margin: 1.618ex 0;
+}
+*[lang="en"] h1,
+*[lang="en"] h2,
+*[lang="en"] h3,
+*[lang="en"] h4,
+*[lang="en"] h5,
+*[lang="en"] h6 {
+  font-family: "NotoSerif-CondensedBlack", serif;
+  margin: 1.618ex 0;
+}
+*[lang="tr"],
+*[lang="ru"],
+*[lang="en"],
+*[lang="tr"] a,
+*[lang="ru"] a,
+*[lang="en"] a,
+*[lang="tr"] body,
+*[lang="ru"] body,
+*[lang="en"] body,
+*[lang="tr"] pre,
+*[lang="ru"] pre,
+*[lang="en"] pre {
+  font-family: "NotoSerif-Condensed", serif;
+  line-height: 1.8em;
+  margin: 1.618ex 0;
+}
+*[lang="tr"] b,
+*[lang="ru"] b,
+*[lang="en"] b {
+  font-family: "NotoSerif-CondensedBold", serif;
+  margin: 1.618ex 0;
+}
+*[lang="tr"] strong,
+*[lang="ru"] strong,
+*[lang="en"] strong {
+  font-family: "NotoSerif-CondensedBlack", serif;
+  margin: 1.618ex 0;
+}
+/*--------------------------------------------------------------------*/
+h1 {
+  color: #FF4040;
+  text-align: center;
+  text-shadow: 5px 4px 3px #00000080;
+}
+h2, h3 {
+  color: #E6813A;
+  text-align: center;
+  text-shadow: 5px 4px 3px #00000080;
+}
+h4, h5, h6 {
+  color: #80BEFF;
+  text-align: center;
+  text-shadow: 5px 4px 3px #00000080;
+}
+strong {
+  color: #FF4040;
+  text-shadow: 4px 3px 2px #00000080;
+}
+b {
+  color: #80BEFF;
+  text-shadow: 4px 3px 2px #00000080;
+}
+pre {
+  width: 100%;
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -pre-wrap;
+  white-space: -o-pre-wrap;
+  word-wrap: break-word;
+}
+table {
+  font-size: 1.618em;
+  line-height: 1.618em;
+}
+/*--------------------------------------------------------------------*/
+hr.big-line {border: 0; height: 4px; background-image: linear-gradient(to right, #00000000, #3D993D, #47B347, #3D993D, #00000000);}
+@media screen and (max-width: 960px) {hr.big-line {border: 0; height: 3px; background-image: linear-gradient(to right, #00000000, #3D993D, #47B347, #3D993D, #00000000);}}
+@media screen and (max-width: 560px) {hr.big-line {border: 0; height: 2px; background-image: linear-gradient(to right, #00000000, #3D993D, #47B347, #3D993D, #00000000);}}
+hr.mid-line {border: 0; height: 3px; background-image: linear-gradient(to right, #00000000, #00000000, #3D993D, #47B347, #3D993D, #00000000, #00000000);}
+@media screen and (max-width: 960px) {hr.mid-line {border: 0; height: 2px; background-image: linear-gradient(to right, #00000000, #3D993D, #47B347, #3D993D, #00000000);}}
+@media screen and (max-width: 560px) {hr.mid-line {border: 0; height: 1px; background-image: linear-gradient(to right, #00000000, #3D993D, #47B347, #3D993D, #00000000);}}
+/*--------------------------------------------------------------------*/
+.vid {
+  margin:0px auto;
+}

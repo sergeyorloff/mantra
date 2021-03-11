@@ -1,0 +1,36 @@
+@font-face {
+  font-family: "NotoSerifDevanagari-Black";
+  src: url("../fonts/NotoSerifDevanagari-Black.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/NotoSerifDevanagari-Black.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/NotoSerifDevanagari-Black.otf") format("opentype"), /* Open Type Font */
+    url("../fonts/NotoSerifDevanagari-Black.svg") format("svg"), /* Legacy iOS */
+    url("../fonts/NotoSerifDevanagari-Black.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../fonts/NotoSerifDevanagari-Black.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/NotoSerifDevanagari-Black.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "NotoSerifDevanagari-Bold";
+  src: url("../fonts/NotoSerifDevanagari-Bold.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/NotoSerifDevanagari-Bold.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/NotoSerifDevanagari-Bold.otf") format("opentype"), /* Open Type Font */
+    url("../fonts/NotoSerifDevanagari-Bold.svg") format("svg"), /* Legacy iOS */
+    url("../fonts/NotoSerifDevanagari-Bold.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../fonts/NotoSerifDevanagari-Bold.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/NotoSerifDevanagari-Bold.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "NotoSerifDevanagari-Regular";
+  src: url("../fonts/NotoSerifDevanagari-Regular.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/NotoSerifDevanagari-Regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/NotoSerifDevanagari-Regular.otf") format("opentype"), /* Open Type Font */
+    url("../fonts/NotoSerifDevanagari-Regular.svg") format("svg"), /* Legacy iOS */
+    url("../fonts/NotoSerifDevanagari-Regular.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../fonts/NotoSerifDevanagari-Regular.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/NotoSerifDevanagari-Regular.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}

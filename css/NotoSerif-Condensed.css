@@ -1,0 +1,36 @@
+@font-face {
+  font-family: "NotoSerif-Condensed";
+  src: url("../fonts/NotoSerif-Condensed.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/NotoSerif-Condensed.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/NotoSerif-Condensed.otf") format("opentype"), /* Open Type Font */
+    url("../fonts/NotoSerif-Condensed.svg") format("svg"), /* Legacy iOS */
+    url("../fonts/NotoSerif-Condensed.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../fonts/NotoSerif-Condensed.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/NotoSerif-Condensed.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "NotoSerif-CondensedBold";
+  src: url("../fonts/NotoSerif-CondensedBold.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/NotoSerif-CondensedBold.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/NotoSerif-CondensedBold.otf") format("opentype"), /* Open Type Font */
+    url("../fonts/NotoSerif-CondensedBold.svg") format("svg"), /* Legacy iOS */
+    url("../fonts/NotoSerif-CondensedBold.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../fonts/NotoSerif-CondensedBold.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/NotoSerif-CondensedBold.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "NotoSerif-CondensedBlack";
+  src: url("../fonts/NotoSerif-CondensedBlack.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/NotoSerif-CondensedBlack.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/NotoSerif-CondensedBlack.otf") format("opentype"), /* Open Type Font */
+    url("../fonts/NotoSerif-CondensedBlack.svg") format("svg"), /* Legacy iOS */
+    url("../fonts/NotoSerif-CondensedBlack.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../fonts/NotoSerif-CondensedBlack.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/NotoSerif-CondensedBlack.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
