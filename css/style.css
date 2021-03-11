@@ -214,3 +214,13 @@ hr.small-line {border: 0; height: 3px; background-image: linear-gradient(to righ
 .vid {
   margin:0px auto;
 }
+.sign {
+  float: center; /* Выравнивание по правому краю */
+  border: none; /* Параметры рамки */
+  padding: 0px; /* Поля внутри блока */
+  margin: 0px; /* Отступы вокруг */
+  background: #00000000; /* Цвет фона */
+}
+.sign figcaption {
+  margin: -10px auto 0px; /* Отступы вокруг абзаца */
+}
