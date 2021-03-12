@@ -14,8 +14,7 @@ animation: fade-in 2.236s ease-in-out;
 html {
   padding: 3%;
   color: #D1D1D1;
-  /*background-color: #26282E;*/
-  background-image: url('../img/pattern.png');
+  background-color: #26282E;
   background-repeat: repeat;
   background-position: top left;
   background-attachment: fixed;
@@ -223,4 +222,21 @@ hr.small-line {border: 0; height: 3px; background-image: linear-gradient(to righ
 }
 .sign figcaption {
   margin: -10px auto 0px; /* Отступы вокруг абзаца */
+}
+img {
+  width: 100%;
+  height: auto;
+}
+.textcols {
+	white-space: nowrap;
+}
+.textcols-item {
+	white-space: normal;
+	display: inline-block;
+	width: 42%;
+	vertical-align: top;
+	background: #00000000;
+}
+.textcols .textcols-item:first-child {
+	margin-right: 8%;
 }
